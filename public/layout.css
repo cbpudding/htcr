@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+#chatroom {
+    height: 90vh;
+    width: 100vw;
+}
+
+#content {
+    width: calc(100% - calc(4em + 12px));
+}
+
+.message {
+    border-width: 0;
+    display: block;
+    height: 1.25in;
+    overflow: hidden;
+    width: 100%;
+}
+
+#send {
+    width: 4em;
+}
+
+#template {
+    width: 100%;
+}
